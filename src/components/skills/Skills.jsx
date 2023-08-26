@@ -2,14 +2,9 @@ import React from "react";
 import ProgressBar from "../../chip/ProgressBar";
 import SkillBox from "../../chip/SkillBox";
 
-import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
+import { IoLogoCss3 } from "react-icons/io";
 
-import {
-  SiJavascript,
-  SiTailwindcss,
-  SiMongodb,
-  SiExpress,
-} from "react-icons/si";
+import { SiJavascript, SiMongodb, SiExpress } from "react-icons/si";
 import { GrCode } from "react-icons/gr";
 import { SiNextdotjs } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
@@ -39,7 +34,7 @@ const Skills = ({ darkMode }) => {
               className="progress flex items-center h-[100%] justify-end md:justify-center"
             >
               <div className=" flex flex-col gap-6  w-3/4  my-5 md:w-[90%]">
-                <ProgressBar logo={<IoLogoHtml5 />} name={"HTML"} value={95} />
+                <ProgressBar logo={<GrCode />} name={"Go"} value={45} />
                 <ProgressBar logo={<IoLogoCss3 />} name={"CSS"} value={88} />
                 <ProgressBar
                   logo={<SiJavascript />}
@@ -48,7 +43,7 @@ const Skills = ({ darkMode }) => {
                 />
                 <ProgressBar logo={<FaReact />} name={"React Js"} value={80} />
                 <ProgressBar
-                  logo={<SiTailwindcss />}
+                  logo={<IoLogoNodejs />}
                   name={"Node Js"}
                   value={80}
                 />
@@ -64,7 +59,17 @@ const Skills = ({ darkMode }) => {
                 white={"black"}
                 skill={"MongoDB"}
               />
+              <SkillBox
+                className=""
+                logo={
+                  <SiNextdotjs className=" text-white bg-black rounded-full h-fit border-white overflow-hidden" />
+                }
+                black={"white"}
+                white={"black"}
+                skill={"NextJs"}
+              />
             </div>
+
             <div className="last2 flex flex-col gap-10">
               <SkillBox
                 logo={<SiExpress />}
