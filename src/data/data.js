@@ -29,7 +29,7 @@ export const data = [
   id: 4,
     img: 'https://i.postimg.cc/ydwHGd69/220005380-ede4fb14-0b8d-4582-a063-3cc4beeccfb7.png',
     title: "Netflix Clone",
-    desc: "This Nike clone has been built with the help of Next.js and Tailwind CSS.",
+    desc: "This Netflix  clone has been built with the help of Next.js and Tailwind CSS.",
     link: "",
     git: "https://github.com/subhrajitMukherje/Netflix",
   },
