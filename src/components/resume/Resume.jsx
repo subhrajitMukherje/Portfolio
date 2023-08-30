@@ -87,7 +87,7 @@ const Resume = () => {
                   web development technologies such as HTML, CSS, Tailwind CSS,
                   JavaScript, and React JS. Additionally, I'm proficient in
                   backend technologies such as Node.js, Express.js, and MongoDB.
-                  I also have skills in C++ and problem-solving using Data
+                  I also have skills in Java and problem-solving using Data
                   structures and Algorithms.
                 </p>
               </div>
